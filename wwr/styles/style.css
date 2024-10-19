@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+
 /* */
 #content {
     max-width: 1600px;
@@ -12,6 +16,8 @@
 
 .button-box{
     text-align: center;
+    
+
 }
 
 main section {
@@ -20,11 +26,14 @@ main section {
 
 #background {
     height: 725px;
-    background-color: white;
+    background-color: #769FA3;
 }
 
 body {
     background-color: white;
+    font-family: "Roboto+Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -33,27 +42,44 @@ header {
 
 .msg {
     background-color: white;
+    padding: 35px;
+    line-height: 1.5em;
 }
 
 footer {
     background-color: white;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
+
  /* Titles*/
 .home-title {
     color: #CF6921;
+    font-family: "Halant", serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
+
 h4 {
     color: #CF6921;
 }
 
 .msg h2 {
     color: #CF6921;
+    font-family: "Halant", serif;
+}
+
+.h2 {
+    margin: 0;
 }
 
 /*Text*/
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer p {
@@ -64,6 +90,7 @@ footer p {
 /*Images and Icons*/
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -74,12 +101,28 @@ footer p {
     width: 80px;
 }
 
+footer .social img {
+     padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #769FA3;
+}
+main section img {
+    box-sizing: border-box;
+}
 
 /* Links */
+#logo_link {
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
     color: #662D0E;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -99,7 +142,12 @@ footer a:hover {
 
 .book, .join {
     color: #662D0E;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #769FA3;
 }
 .book:hover, .join:hover {
     color: #B07440;
