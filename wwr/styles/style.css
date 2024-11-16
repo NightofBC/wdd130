@@ -33,6 +33,12 @@ main section {
     grid-row: 4/9;
 }
 
+#background2{
+    background-color: #769FA3;
+    grid-column: 1/11;
+    grid-row: 4/20;
+    height: 1250px;
+}
 body {
     background-color: white;
     font-family: "Roboto+Condensed", sans-serif;
@@ -80,6 +86,35 @@ nav {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+#river1 {
+    background-color: white;
+    padding: 35px;
+    line-height: 1.5em;
+    grid-column: 2/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.river2 {
+    background-color: white;
+    padding: 35px;
+    line-height: 1.5em;
+    grid-column: 2/10;
+    grid-row: 9/10;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+.river3 {
+    background-color: white;
+    padding: 35px;
+    line-height: 1.5em;
+    grid-column: 2/10;
+    grid-row: 12/13;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -93,6 +128,12 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#form {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -231,6 +272,9 @@ footer a:hover {
     text-decoration: underline;
 }
 
+        
+    
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -274,3 +318,4 @@ footer a:hover {
         margin-top: 25px;
     }
 }
+
