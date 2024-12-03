@@ -290,6 +290,7 @@ h3 {
     color: white;
     text-align: center;
 }
+/* Website Page */
 
 /* About Page */
 #aboutme {
@@ -367,3 +368,5 @@ h3 {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
+
+  
