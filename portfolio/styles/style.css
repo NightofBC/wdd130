@@ -41,14 +41,14 @@ nav a:hover {
 }
 
 
-#hero {
+.hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -80px; 
     
 }
 
-#hero-img {
+.hero-img {
     width: 100%;
     grid-column: 1/4;
     grid-row: 1/3;
@@ -281,3 +281,89 @@ h3 {
 .client-link6 {
     grid-column: 6/7;
 }
+
+/* Subpages */
+.page-title{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 250px;
+    color: white;
+    text-align: center;
+}
+
+/* About Page */
+#aboutme {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#about-text {
+    grid-column: 2/3;
+    width: 75%;
+    
+}
+
+#profile-pic {
+    grid-column: 1/2;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faq{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 2fr 2fr ;
+    margin-bottom: 100px;
+}
+#faq h2{
+    text-align: center;
+    grid-area: 1/1/3/3;
+}
+
+#faq img{
+    grid-column: 1/2;
+    width: 50px;
+    margin: auto;
+}
+
+.panel {
+    grid-column: 2/3;
+}
+
+.accordion {
+    background-color: white;
+    color: #072f3c;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: Outfit, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+.active, .accordion:hover {
+    background-color: #2e988c;
+  }
+  .accordion:after {
+    content: '\02795';
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; 
+  }
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
